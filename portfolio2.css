@@ -482,6 +482,7 @@ body {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
     transition: transform 0.3s ease;
     z-index: 100;
+    top: 11500px;
 }
 
 .square1:hover, .square2:hover, .square3:hover, .square4:hover {
@@ -490,22 +491,18 @@ body {
 
 .square1 {
     left: 60.84%;
-    top: 86%;
 }
 
 .square2 {
     left: 69.22%;
-    top: 86%;
 }
 
 .square3 {
     left: 77.43%;
-    top: 86%;
 }
 
 .square4 {
     left: 85.65%;
-    top: 86%;
 }
 
 .square1 svg, .square2 svg, .square3 svg, .square4 svg {
