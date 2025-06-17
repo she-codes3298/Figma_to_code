@@ -365,7 +365,7 @@ body {
 /* FIXED PAGE TWO STYLES */
 .page-two {
     position: absolute;
-    top: 6800px;
+    top: 6750px;
     left: 0;
     width: 100%;
     height: 6000px;
@@ -383,13 +383,13 @@ body {
     z-index: 1; /* Lower z-index for background */
 }
 
-.about-me-image {
+.about-me-image img{
     position: absolute;
     height: 11440px;
     left: 8.39%;
     right: 0%;
     top: 6800px;
-    background: url(image10.png);
+    
     opacity: 0.2; /* Reduced opacity */
     z-index: 2; /* Still lower than text */
 }
@@ -524,7 +524,7 @@ body {
 /* NEW PAGE 3 STYLES */
 .page3 {
     position: absolute; 
-    top: 13346px; 
+    top: 12090px; 
     width: 12736px; 
     height: 6673px; 
     background: linear-gradient(283.21deg, #061D38 4.88%, #251707 95.12%);
@@ -584,7 +584,7 @@ body {
 box-sizing: border-box;
 
 position: absolute;
-left: 66.46%;
+left: 62.46%;
 right: 24.48%;
 top: 56.03%;
 bottom: 23.14%;
@@ -602,7 +602,7 @@ transform: matrix(0.85, 0.52, -0.51, 0.86, 0, 0);
 box-sizing: border-box;
 
 position: absolute;
-left: 58.6%;
+left: 54.6%;
 right: 32.34%;
 top: 26.78%;
 bottom: 52.4%;
@@ -620,7 +620,7 @@ transform: matrix(0.84, 0.54, -0.53, 0.85, 0, 0);
 box-sizing: border-box;
 
 position: absolute;
-left: 58.32%;
+left: 54.32%;
 right: 32.61%;
 top: 45.93%;
 bottom: 33.25%;
@@ -638,7 +638,7 @@ transform: matrix(0.83, 0.56, -0.54, 0.84, 0, 0);
 box-sizing: border-box;
 
 position: absolute;
-left: 66.7%;
+left: 62.7%;
 right: 24.24%;
 top: 37.06%;
 bottom: 42.1%;
@@ -656,7 +656,7 @@ transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
 box-sizing: border-box;
 
 position: absolute;
-left: 75.65%;
+left: 71.65%;
 right: 15.29%;
 top: 8.75%;
 bottom: 70.41%;
@@ -674,7 +674,7 @@ transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
 box-sizing: border-box;
 
 position: absolute;
-left: 74.61%;
+left: 70.61%;
 right: 16.34%;
 top: 66.48%;
 bottom: 12.68%;
@@ -692,7 +692,7 @@ transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
 box-sizing: border-box;
 
 position: absolute;
-left: 75.3%;
+left: 71.3%;
 right: 15.64%;
 top: 27.97%;
 bottom: 51.19%;
@@ -710,7 +710,7 @@ transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
 box-sizing: border-box;
 
 position: absolute;
-left: 83.48%;
+left: 79.48%;
 right: 7.46%;
 top: 56.16%;
 bottom: 23%;
@@ -728,7 +728,7 @@ transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
 box-sizing: border-box;
 
 position: absolute;
-left: 83.83%;
+left: 79.83%;
 right: 7.11%;
 top: 36.94%;
 bottom: 42.23%;
@@ -746,9 +746,9 @@ transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
 box-sizing: border-box;
 
 position: absolute;
-left: 74.96%;
+left: 70.96%;
 right: 15.99%;
-top: 47.03%;
+top: 40.03%;
 bottom: 32.14%;
 
 background: #D27715;
@@ -1321,3 +1321,157 @@ order: 0;
 flex-grow: 0;
 
 }
+
+.page4{
+     position: absolute; 
+    top: 18763px; 
+    width: 12736px; 
+    height: 6673px; 
+    background: linear-gradient(283.21deg, #061D38 4.88%, #251707 95.12%);
+    /* overflow: hidden; -- Consider if content might overflow visually */
+}
+
+.bg-image4{
+    /* image 11 */
+
+position: absolute;
+height: 13418.05px;
+left: 102.88%;
+right: -110.32%;
+top: 10416.83px;
+
+background: url(bg-image4.png);
+opacity: 0.3;
+transform: rotate(179.67deg);
+
+}
+
+.graphics4{
+    /* image 18 */
+
+position: absolute;
+height: 7457px;
+left: 73.35%;
+right: -30.05%;
+top: -421.24px;
+
+background: url(graphics4.png);
+opacity: 0.5;
+transform: rotate(-1.14deg);
+
+   
+}
+.heading2{
+    position: absolute;
+width: 3762px;
+height: 579px;
+left: 1289px;
+top: 263px;
+
+font-family: 'Alegreya SC';
+font-style: normal;
+font-weight: 400;
+font-size: 700px;
+line-height: 953px;
+
+color: #D27715;
+
+}
+
+.pointer{
+    position:absolute;
+    width: 649px;
+    border-radius:50%;
+    background: linear-gradient(180deg, #0E0E24 0%, #6D4D2A 100%);
+    transform: rotate(-0.21deg);
+}
+.ellipse1{height: 560.3px;left: 1159.36px;top: 1661.12px;}
+.ellipse2{height: 575.06px;left: 1178px;top: 3323.43px;}
+.ellipse3{height: 602.18px;left: 1218px;top: 4923.43px;}
+
+.ver-line{
+
+position: absolute;
+width: 4496.77px;
+height: 63.69px;
+left: 100.19px;
+top: 3500.26px;
+
+border: 30px solid #FFFFFF;
+transform: rotate(89.79deg);
+
+}
+.hor-line1{
+
+position: absolute;
+width: 375.08px;
+height: 7.98px;
+left: 1800.53px;
+top: 2000.66px;
+
+border: 10px solid #FFFFFF;
+transform: rotate(-177.94deg);
+}
+.hor-line2{
+
+position: absolute;
+width: 1487.95px;
+height: 7.98px;
+left: 1700.03px;
+top: 3605.51px;
+
+border: 10px solid #FFFFFF;
+transform: rotate(-0.35deg);
+}
+.hor-line3{
+
+position: absolute;
+width: 2707.35px;
+height: 7.98px;
+left: 1869px;
+top: 5160.39px;
+
+border: 10px solid #FFFFFF;
+transform: rotate(-0.35deg);
+}
+
+
+.name{position: absolute;
+width: 1983px;
+height: 354px;
+
+
+font-family: 'League Spartan';
+font-style: normal;
+font-weight: 500;
+font-size: 300px;
+line-height: 276px;
+
+color: #FFFFFF;}
+.job{
+position: absolute;
+width: 1258px;
+height: 295px;
+
+
+font-family: 'Macondo Swash Caps';
+font-style: normal;
+font-weight: 400;
+font-size: 250px;
+line-height: 295px;
+/* identical to box height */
+
+color: #FFFFFF;}
+.year{
+position: absolute;
+width: 1111px;
+height: 283px;
+
+
+font-family: 'Macondo Swash Caps';
+font-style: normal;
+font-weight: 400;
+font-size: 240px;
+line-height: 283px;
+
+color: #FFFFFF;}
