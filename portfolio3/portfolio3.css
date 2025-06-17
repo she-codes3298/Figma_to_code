@@ -1,0 +1,635 @@
+body{
+    width:12736;
+    height:100%;
+}
+.page-wrapper{
+    /* Portfolio-4 */
+
+box-sizing: border-box;
+
+position: relative;
+width: 12736px;
+height: 6673px;
+
+background: #FFFFFF;
+border: 20px solid #000000;
+
+}
+.name{
+/* Alex River */
+
+position: absolute;
+width: 4646px;
+height: 880px;
+left: 4845px;
+top: 1673px;
+
+font-family: 'Aldrich';
+font-style: normal;
+font-weight: 400;
+font-size: 900px;
+line-height: 880px;
+
+color: #000000;
+
+
+}
+.title{
+     /* UX/UI Designer */
+
+position: absolute;
+width: 1296px;
+height: 242px;
+left: 7807px;
+top: 2406px;
+
+font-family: 'Amaranth';
+font-style: normal;
+font-weight: 400;
+font-size: 200px;
+line-height: 242px;
+
+color: #1A1D1F;
+
+
+}
+.tagline{
+   /* Crafting Digital Experiences That Matter */
+
+position: absolute;
+width: 4439px;
+height: 1467px;
+left: 4522px;
+top: 4034px;
+
+font-family: 'Aldrich';
+font-style: normal;
+font-weight: 400;
+font-size: 500px;
+line-height: 489px;
+
+color: #000000;
+
+
+}
+.specialties{
+
+}
+.specialty-item1{
+/* User-Centered Design */
+
+position: absolute;
+width: 1625px;
+height: 225px;
+left: 10243px;
+top: 3031px;
+
+font-family: 'Amaranth';
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+line-height: 225px;
+/* identical to box height, or 125% */
+
+color: #207BB2;
+}
+.specialty-item2{
+    /* Interface Innovation */
+
+position: absolute;
+width: 1546px;
+height: 225px;
+left: 10213px;
+top: 3352px;
+
+font-family: 'Amaranth';
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+line-height: 225px;
+/* identical to box height, or 125% */
+
+color: #207BB2;
+}
+.specialty-item3{
+    /* Prototyping & Testing */
+
+position: absolute;
+width: 1638px;
+height: 225px;
+left: 10213px;
+top: 3688px;
+
+font-family: 'Amaranth';
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+line-height: 225px;
+/* identical to box height, or 125% */
+
+color: #207BB2;
+
+
+}
+.specialty-item4{
+    /* Design Systems */
+
+position: absolute;
+width: 1188px;
+height: 225px;
+left: 10194px;
+top: 4009px;
+
+font-family: 'Amaranth';
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+line-height: 225px;
+/* identical to box height, or 125% */
+
+color: #207BB2;
+}
+.about{
+/* About */
+
+position: absolute;
+width: 554px;
+height: 176px;
+left: 7116px;
+top: 260px;
+
+font-family: 'Aldrich';
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+line-height: 176px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.skills{/* Skills */
+
+position: absolute;
+width: 470px;
+height: 176px;
+left: 8085px;
+top: 260px;
+
+font-family: 'Aldrich';
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+line-height: 176px;
+/* identical to box height */
+
+color: #000000;
+
+}
+.experience{/* Experience */
+
+position: absolute;
+width: 1018px;
+height: 176px;
+left: 8875px;
+top: 260px;
+
+font-family: 'Aldrich';
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+line-height: 176px;
+/* identical to box height */
+
+color: #000000;
+
+}
+.projects{/* Projects */
+
+position: absolute;
+width: 786px;
+height: 176px;
+left: 10213px;
+top: 260px;
+
+font-family: 'Aldrich';
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+line-height: 176px;
+/* identical to box height */
+
+color: #000000;
+
+}
+.education{/* Education */
+
+position: absolute;
+width: 923px;
+height: 176px;
+left: 11291px;
+top: 260px;
+
+font-family: 'Aldrich';
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+line-height: 176px;
+/* identical to box height */
+
+color: #000000;
+
+}
+/* Screenshot from 2025-06-06 21-27-13 1 */
+.image-placeholder{
+position: absolute;
+width: 3759px;
+height: 4942px;
+left: 1331px;
+top: 755px;
+
+background: url(profile.png);
+}
+
+.download-cv{
+    /* Rectangle 131 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1669px;
+height: 536px;
+left: 10013px;
+top: 4814px;
+
+background: linear-gradient(90deg, #616774 0%, #A6ACBA 100%);
+border: 20px solid #209BE8;
+border-radius: 100px;
+
+}
+.downlode{
+    /* Downlode CV */
+
+position: absolute;
+width: 1328px;
+height: 196px;
+left: 10225px;
+top: 5025px;
+
+font-family: 'Aldrich';
+font-style: normal;
+font-weight: 400;
+font-size: 200px;
+line-height: 196px;
+/* identical to box height */
+
+color: #000000;
+z-index:10;
+
+
+}
+.spe{
+    /* Specialties */
+
+position: absolute;
+width: 1686px;
+height: 293px;
+left: 9893px;
+top: 2425px;
+
+font-family: 'Aldrich';
+font-style: normal;
+font-weight: 400;
+font-size: 300px;
+line-height: 293px;
+
+color: #000000;
+
+
+}
+.line1{
+    /* Line 19 */
+/* Line 19 */
+
+position: absolute;
+width: 1426px;
+height: 0px;
+left: 9893px;
+top: 2772px;
+
+transform: rotate(-0.04deg);
+
+
+}
+.bullet1{
+    /* Push pin */
+
+position: absolute;
+width: 189px;
+height: 170px;
+left: 10008px;
+top: 3056px;
+
+
+}
+.bullet2{
+    /* Push pin */
+
+position: absolute;
+width: 189px;
+height: 170px;
+left: 9978px;
+top: 3377px;
+
+
+}
+.bullet3{
+    /* Push pin */
+
+position: absolute;
+width: 189px;
+height: 170px;
+left: 9978px;
+top: 3713px;
+
+
+}
+.bullet4{
+    /* Push pin */
+
+position: absolute;
+width: 189px;
+height: 170px;
+left: 9959px;
+top: 4034px;
+
+
+}
+.exp{
+    /* Crafting Digital Experiences That Matter */
+
+
+color: #207BB2;
+
+
+}
+.desktop-25{
+    /* Desktop - 25 */
+
+
+width: 12736px;
+height: 6673px;
+
+background: linear-gradient(270.2deg, #305469 0.18%, rgba(0, 0, 0, 0.9) 55.27%);
+border: 20px solid #000000;
+
+}
+.about{
+    /* About Me */
+
+position: absolute;
+width: 3927px;
+height: 782px;
+left: 2262px;
+top: 1855px;
+
+font-family: 'Aldrich';
+font-style: normal;
+font-weight: 400;
+font-size: 800px;
+line-height: 782px;
+
+color: #FFFFFF;
+
+
+}
+.blue{
+     color: #207BB2;
+}
+.content{
+    /* Rectangle 163 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 5745px;
+height: 2645px;
+left: 1830px;
+top: 2922px;
+
+background: linear-gradient(270.11deg, #616774 0.09%, #999999 99.91%);
+border: 30px solid #209BE8;
+
+}
+.content-text{
+    /* I'm a passionate UX/UI designer who believes every pixel has a purpose. With an eye for aesthetics and a heart forusability, I transform complex problems into intuitive digital experiences that users actually love. My design philosophy? Human-first, pixel-perfect, data-driven. I don't just make things pretty—I make them purposeful. */
+
+position: absolute;
+width: 5495px;
+height: 1380px;
+left: 2378px;
+top: 3468px;
+
+font-family: 'Amaranth';
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+line-height: 230px;
+/* or 128% */
+
+color: #FFFFFF;
+
+
+}
+.ellipse1{
+    /* Ellipse 58 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 480px;
+height: 429px;
+left: 2020px;
+top: 5717px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(239, 226, 226, 0.9) 0%, rgba(102, 102, 102, 0.27) 100%);
+border: 20px solid #209BE8;
+
+}
+.ellipse2{
+    /* Ellipse 59 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 480px;
+height: 429px;
+left: 2574px;
+top: 5717px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(239, 226, 226, 0.9) 0%, rgba(102, 102, 102, 0.27) 100%);
+border: 20px solid #209BE8;
+
+}
+.ellipse3{
+    /* Ellipse 60 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 480px;
+height: 429px;
+left: 3128px;
+top: 5717px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(239, 226, 226, 0.9) 0%, rgba(102, 102, 102, 0.27) 100%);
+border: 20px solid #209BE8;
+
+}
+.vector1{
+    /* Vector */
+
+position: absolute;
+left: 16.83%;
+right: 81.3%;
+top: 87.7%;
+bottom: 9.55%;
+
+background: #111F27;
+
+}
+.vector2{
+    /* SVGRepo_iconCarrier */
+
+position: absolute;
+left: 21.15%;
+right: 76.96%;
+top: 87.04%;
+bottom: 9.55%;
+
+
+}
+.vector3{
+    /* SVGRepo_iconCarrier */
+
+position: absolute;
+left: 25.5%;
+right: 72.62%;
+top: 87.3%;
+bottom: 9.47%;
+
+transform: matrix(1, -0.01, 0.01, 1, 0, 0);
+
+}
+.image-right{
+    /* image 31 */
+
+position: absolute;
+width: 7305px;
+height: 7988px;
+left: 5431px;
+top: -114px;
+
+background: url(image31.png);
+opacity: 0.25;
+
+}
+.desktop-26{
+    /* Desktop - 25 */
+
+
+width: 12736px;
+height: 6673px;
+
+background: linear-gradient(270.2deg, #305469 0.18%, rgba(0, 0, 0, 0.9) 55.27%);
+border: 20px solid #000000;
+
+}
+
+.vector{
+    /* Vector */
+
+position: absolute;
+left: 26.9%;
+right: 24.65%;
+top: 3.4%;
+bottom: 8.18%;
+
+background: #209BE8;
+opacity: 0.2;
+
+}
+.ski{
+    /* Skills */
+
+position: absolute;
+width: 2087px;
+height: 782px;
+left: 5565px;
+top: 367px;
+
+font-family: 'Aldrich';
+font-style: normal;
+font-weight: 400;
+font-size: 800px;
+line-height: 782px;
+
+color: #FFFFFF;
+
+
+}
+.rec{
+    /* Rectangle 164 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 2971px;
+height: 742px;
+left: 720px;
+top: 1241px;
+
+background: linear-gradient(270.11deg, #616774 0.09%, #999999 99.91%);
+border: 30px solid #209BE8;
+border-radius: 900px;
+
+}
+.ellipse{
+/* Ellipse 36 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1048px;
+height: 926px;
+left: 596px;
+top: 1149px;
+
+background: linear-gradient(270.3deg, #616774 0.26%, #B6C2DA 99.74%);
+border: 30px solid #209BE8;
+
+}
+.ellipse37{
+  /* Ellipse 37 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 846px;
+height: 765px;
+left: 697px;
+top: 1229px;
+
+background: linear-gradient(270.3deg, #616774 0.26%, #B6C2DA 99.74%);
+border: 30px solid #209BE8;
+
+}
+
+
+
+
+
+
+
+
