@@ -19,8 +19,8 @@ body {
 .portfolio-container {
     /* This class is no longer needed since styles moved to body */
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 12736px;
+    height: 6673px;
        background: linear-gradient(283.21deg, #061D38 4.88%, #251707 95.12%);
 }
 
@@ -510,59 +510,6 @@ body {
     height: 307px;
 }
 
-/*page3 style*/
-.page3{
-    position: absolute;
-    width: 12736px;
-    height: 6673px;
-    top: 13346px;
-}
-
-.my{
-    position: absolute;
-    left: 9.86%;
-    right: 80.02%;
-    top: 26.99%;
-    bottom: 61.89%;
-    font-family: 'Alegreya SC';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 700px;
-    line-height: 130%;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
-
-.spe{
-    position: absolute;
-    left: 9.86%;
-    right: 49.25%;
-    top: 37.78%;
-    bottom: 51.09%;
-    font-family: 'Alegreya SC';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 700px;
-    line-height: 130%;
-    letter-spacing: 0.02em;
-    color: #D27715;
-}
-
-.and{
-    position: absolute;
-    left: 9.41%;
-    right: 46.85%;
-    top: 47.59%;
-    bottom: 41.29%;
-    font-family: 'Alegreya SC';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 700px;
-    line-height: 130%;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
-
 /* Updated media query for responsive scaling */
 @media (max-width: 1920px) {
     body {
@@ -572,4 +519,805 @@ body {
         height: 18146px; /* Keep original height */
         /* The scaled body will effectively be about 1363px wide */
     }
+}
+
+/* NEW PAGE 3 STYLES */
+.page3 {
+    position: absolute; 
+    top: 13346px; 
+    width: 12736px; 
+    height: 6673px; 
+    background: linear-gradient(283.21deg, #061D38 4.88%, #251707 95.12%);
+    /* overflow: hidden; -- Consider if content might overflow visually */
+}
+
+/* Text Headers */
+.my { /* Assuming this existing class is for "My" */
+    position: absolute;
+    left: 1255px; /* From previous interpretation of user CSS */
+    top: 1800px; /* From previous interpretation of user CSS */
+    width: 1012px; /* From previous interpretation of user CSS */
+    height: 910px; /* From previous interpretation of user CSS */
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 700px;
+    line-height: 130%; /* or 910px */
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.specialization {
+    position: absolute;
+    left: 1255px; /* Placeholder - Update with actual from snippet if different for "Specialization" */
+    top: 2520px; /* Placeholder - Update with actual from snippet if different for "Specialization" */
+    width: 4045px; /* Placeholder - Update with actual from snippet if different for "Specialization" */
+    height: 910px; /* Placeholder - Update with actual from snippet if different for "Specialization" */
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 700px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #D27715;
+}
+
+.and-key-skills {
+    position: absolute;
+    left: 1198px; /* Placeholder - Update with actual from snippet if different for "And Key Skills" */
+    top: 3173px; /* Placeholder - Update with actual from snippet if different for "And Key Skills" */
+    width: 4230px; /* Placeholder - Update with actual from snippet if different for "And Key Skills" */
+    height: 910px; /* Placeholder - Update with actual from snippet if different for "And Key Skills" */
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 700px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+/* Polygons */
+.polygon-8 {
+    /* Polygon 8 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 66.46%;
+right: 24.48%;
+top: 56.03%;
+bottom: 23.14%;
+
+background: #D27715;
+opacity: 0.2;
+border: 25px solid #FFFFFF;
+border-radius: 81px;
+transform: matrix(0.85, 0.52, -0.51, 0.86, 0, 0);
+
+}
+.polygon-10 {
+   /* Polygon 10 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 58.6%;
+right: 32.34%;
+top: 26.78%;
+bottom: 52.4%;
+
+background: #D27715;
+opacity: 0.2;
+border: 25px solid #FFFFFF;
+border-radius: 81px;
+transform: matrix(0.84, 0.54, -0.53, 0.85, 0, 0);
+
+}
+.polygon-6 {
+   /* Polygon 6 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 58.32%;
+right: 32.61%;
+top: 45.93%;
+bottom: 33.25%;
+
+background: #D27715;
+opacity: 0.2;
+border: 25px solid #FFFFFF;
+border-radius: 81px;
+transform: matrix(0.83, 0.56, -0.54, 0.84, 0, 0);
+
+}
+.polygon-7 {
+   /* Polygon 7 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 66.7%;
+right: 24.24%;
+top: 37.06%;
+bottom: 42.1%;
+
+background: #D27715;
+opacity: 0.2;
+border: 25px solid #FFFFFF;
+border-radius: 81px;
+transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
+
+}
+.polygon-12 {
+    /* Polygon 12 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 75.65%;
+right: 15.29%;
+top: 8.75%;
+bottom: 70.41%;
+
+background: #D27715;
+opacity: 0.2;
+border: 25px solid #FFFFFF;
+border-radius: 81px;
+transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
+
+}
+.polygon-14 {
+   /* Polygon 14 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 74.61%;
+right: 16.34%;
+top: 66.48%;
+bottom: 12.68%;
+
+background: #D27715;
+opacity: 0.2;
+border: 25px solid #FFFFFF;
+border-radius: 81px;
+transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
+
+}
+.polygon-15 {
+   /* Polygon 15 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 75.3%;
+right: 15.64%;
+top: 27.97%;
+bottom: 51.19%;
+
+background: #D27715;
+opacity: 0.2;
+border: 25px solid #FFFFFF;
+border-radius: 81px;
+transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
+
+}
+.polygon-17 {
+   /* Polygon 17 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 83.48%;
+right: 7.46%;
+top: 56.16%;
+bottom: 23%;
+
+background: #D27715;
+opacity: 0.2;
+border: 25px solid #FFFFFF;
+border-radius: 81px;
+transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
+
+}
+.polygon-18 {
+   /* Polygon 18 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 83.83%;
+right: 7.11%;
+top: 36.94%;
+bottom: 42.23%;
+
+background: #D27715;
+opacity: 0.2;
+border: 25px solid #FFFFFF;
+border-radius: 81px;
+transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
+
+}
+.polygon-16 {
+   /* Polygon 16 */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 74.96%;
+right: 15.99%;
+top: 47.03%;
+bottom: 32.14%;
+
+background: #D27715;
+opacity: 0.2;
+border: 25px solid #FFFFFF;
+border-radius: 81px;
+transform: matrix(0.86, 0.51, -0.5, 0.87, 0, 0);
+
+}
+
+/* Vectors */
+.vector-10 {
+    position: absolute; left: 8.97%; right: 71.03%; top: -2.34%; bottom: 63.34%;
+    background: linear-gradient(180deg, #E46521 0%, #7E3812 100%); opacity: 0.2;
+    border: 1px solid #000000; transform: rotate(62.68deg);
+}
+.vector-13 {
+    position: absolute; left: 72.74%; right: -6.61%; top: 87.25%; bottom: -42.34%;
+    background: linear-gradient(180deg, #E46521 0%, #7E3812 100%); opacity: 0.2;
+    border: 1px solid #000000; transform: rotate(173.12deg);
+}
+.vector-14 {
+    position: absolute; left: -6.52%; right: 72.66%; top: 116.54%; bottom: -71.63%;
+    background: linear-gradient(180deg, #E46521 0%, #7E3812 100%); opacity: 0.2;
+    border: 1px solid #000000; transform: rotate(-65.07deg);
+}
+.vector-15 {
+    position: absolute; left: 32.18%; right: 33.95%; top: 12.13%; bottom: 32.77%;
+    background: linear-gradient(180deg, #E46521 0%, #7E3812 100%); opacity: 0.2;
+    border: 1px solid #000000; transform: rotate(-65.07deg);
+}
+.vector-12 {
+    position: absolute; left: 108.12%; right: -28.13%; top: 14.94%; bottom: 46.07%;
+    background: linear-gradient(180deg, #E46521 0%, #7E3812 100%); opacity: 0.2;
+    border: 1px solid #000000; transform: rotate(139.55deg);
+}
+
+/* Skill Icons & Frames */
+/* Skill 1 (UI/UX Design) */
+.ui-3 { /* Icon */
+    position: absolute; left: 57.67%; right: 38.21%; top: 34.93%; bottom: 58.26%;
+    background: url(hex1.png);
+}
+.frame-1321314591 { /* Text Frame */
+   /* Frame 1321314591 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+left: 57.51%;
+right: 38.04%;
+top: 43.35%;
+bottom: 54.07%;
+
+background: #231F20;
+border-radius: 4px;
+
+}
+.text-ui-ux-design { /* Text */
+   /* UI UX Design */
+
+width: 384px;
+height: 83px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 130%;
+/* or 83px */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+/* Skill 2 (Figma) */
+.figma-icon {
+    position: absolute; left: 55.31%; right: 36.28%; top: 50.52%; bottom: 35.82%;
+    background: url(hex2.png); /* Mapped from placeholder */
+}
+.frame-1321314592 {
+    /* Frame 1321314592 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+left: 57.04%;
+right: 38.51%;
+top: 62.9%;
+bottom: 34.53%;
+
+background: #231F20;
+border-radius: 4px;
+
+}
+.text-figma {
+   /* Figma */
+
+width: 203px;
+height: 91px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 130%;
+/* identical to box height, or 91px */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+/* Figma complex icon paths */
+.path0-fill { position: absolute; left: 40.38%; right: 53.16%; top: 33.33%; bottom: 55.56%; background: #F24E1E;}
+.path1-fill { position: absolute; left: 40.38%; right: 53.16%; top: 44.44%; bottom: 44.44%; background: #FF7262;}
+.path2-fill { position: absolute; left: 46.84%; right: 46.7%; top: 33.33%; bottom: 55.56%; background: #A259FF;}
+.path3-fill { position: absolute; left: 46.84%; right: 46.7%; top: 44.44%; bottom: 44.44%; background: #1ABCFE;}
+.path4-fill { position: absolute; left: 40.38%; right: 53.16%; top: 55.56%; bottom: 33.33%; background: #0ACF83;}
+.ellipse-fill { position: absolute; left: 53.3%; right: 40.24%; top: 33.33%; bottom: 55.56%; background: #A259FF;}
+
+/* Skill 3 (Prototype) */
+.prototype-2-icon {
+    position: absolute; left: 65.75%; right: 29.59%; top: 44.51%; bottom: 48.73%;
+    background: url(hex3.png);
+}
+.frame-1321314593 {
+   /* Frame 1321314595 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+left: 65.88%;
+right: 29.66%;
+top: 53.93%;
+bottom: 43.49%;
+
+background: #231F20;
+border-radius: 4px;
+
+}
+.text-prototype {
+    /* Prototype */
+
+width: 322px;
+height: 91px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 130%;
+/* identical to box height, or 91px */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+/* Skill 4 (Web Design) */
+.web-design-1-icon {
+    position: absolute; left: 65.21%; right: 29.59%; top: 61.52%; bottom: 28.56%;
+    background: url(hex4.png);
+}
+.frame-1321314594-webdesign { /* Unique class based on HTML */
+   /* Frame 1321314594 */
+
+/* Frame 1321314596 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+left: 65.58%;
+right: 29.97%;
+top: 73.15%;
+bottom: 24.28%;
+
+background: #231F20;
+border-radius: 4px;
+
+
+}
+.text-web-design {
+   /* Frame 1321314594 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+width: 567px;
+height: 172px;
+
+background: #231F20;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Skill 5 (Sketch) */
+.sketch-icon {
+    position: absolute; left: 73.03%; right: 19.37%; top: 14.55%; bottom: 73.31%;
+    background: url(hex5.png); /* Mapped from placeholder */
+}
+.frame-1321314597 { /* HTML used this frame ID for Sketch */
+   /* Frame 1321314597 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+left: 74.65%;
+right: 20.89%;
+top: 25.66%;
+bottom: 71.77%;
+
+background: #231F20;
+border-radius: 4px;
+
+}
+.text-sketch {
+    /* Sketch */
+
+width: 213px;
+height: 91px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 130%;
+/* identical to box height, or 91px */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+/* Sketch complex icon paths */
+.sketch-fill-1 { position: absolute; left: 42.36%; right: 42.36%; top: 32.37%; bottom: 34.21%; background: #FDBA4E; }
+.sketch-fill-3 { position: absolute; left: 42.36%; right: 42.36%; top: 32.37%; bottom: 53.07%; background: #F9AD3D; }
+.sketch-fill-5 { position: absolute; left: 47.62%; right: 47.63%; top: 32.37%; bottom: 53.07%; background: #F2A328; }
+.sketch-fill-7 { position: absolute; left: 52.89%; right: 42.36%; top: 32.37%; bottom: 53.07%; background: #EE9A1C; }
+.sketch-fill-9 { position: absolute; left: 42.36%; right: 52.89%; top: 32.37%; bottom: 53.07%; background: #FCEA92; }
+.sketch-fill-11 { position: absolute; left: 52.89%; right: 42.36%; top: 32.37%; bottom: 53.07%; background: #FDD165; }
+.sketch-fill-13 { position: absolute; left: 47.62%; right: 47.63%; top: 32.37%; bottom: 34.21%; background: #F6B740; }
+.sketch-fill-15 { position: absolute; left: 47.62%; right: 47.63%; top: 64.04%; bottom: 34.21%; background: #E59018; }
+.sketch-fill-17 { position: absolute; left: 42.36%; right: 52.89%; top: 64.04%; bottom: 34.21%; background: #EDA02C; }
+.sketch-fill-19 { position: absolute; left: 52.89%; right: 42.36%; top: 64.04%; bottom: 34.21%; background: #C4740F; }
+
+
+/* Skill 6 (Logo Design) */
+.logo-design-1-icon {
+    position: absolute; left: 73.91%; right: 20.35%; top: 34.06%; bottom: 54.68%;
+    background: url(hex6.png);
+}
+.frame-1321314594-logodesign { /* Unique class based on HTML */
+   /* Frame 1321314594 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+left: 74.25%;
+right: 21.29%;
+top: 45.27%;
+bottom: 52.15%;
+
+background: #231F20;
+border-radius: 4px;
+
+}
+.text-logo-design {
+   /* Logo Design */
+
+width: 400px;
+height: 91px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 130%;
+/* identical to box height, or 91px */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+/* Skill 7 (Framer) */
+.framer-icon {
+    position: absolute; left: 74.5%; right: 21.74%; top: 54.07%; bottom: 39.35%;
+    background: url(hex7.png); /* Mapped from placeholder */
+}
+.frame-1321314595-framer { /* Unique class based on HTML */
+   /* Frame 1321314595 */
+
+/* Auto layout */
+/* Frame 1321314595 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+left: 74.21%;
+right: 21.34%;
+top: 63.28%;
+bottom: 34.14%;
+
+background: #231F20;
+border-radius: 4px;
+
+
+}
+.text-framer {
+   /* Framer */
+
+width: 242px;
+height: 91px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 130%;
+/* identical to box height, or 91px */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+/* Framer complex icon paths */
+.framer-path { position: absolute; left: 40.65%; right: 40.65%; top: 33.33%; bottom: 33.33%; background: #2F2F2F; }
+.framer-path-2 { position: absolute; left: 40.65%; right: 47.42%; top: 33.33%; bottom: 44.44%; background: #888888; } /* Renamed from Path_2 */
+.framer-path-3 { position: absolute; left: 40.65%; right: 47.42%; top: 44.44%; bottom: 44.44%; background: #FFFFFF; } /* Renamed from Path_3 */
+.framer-path-4 { position: absolute; left: 40.65%; right: 47.42%; top: 55.56%; bottom: 33.33%; background: #888888; } /* Renamed from Path_4 */
+
+
+/* Skill 8 (Photoshop) */
+.photoshop-icon { /* Derived from /* Outlined_Mnemonics_Logos */
+    position: absolute; left: 74.12%; right: 22.03%; top: 73.92%; bottom: 20.07%;
+    background: url(hex8.png); /* Mapped from placeholder */
+}
+.frame-1321314595-photoshop { /* Unique class based on HTML */
+   /* Frame 1321314595 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+left: 73.73%;
+right: 21.82%;
+top: 82.57%;
+bottom: 14.85%;
+
+background: #231F20;
+border-radius: 4px;
+
+}
+.text-photoshop {
+   /* PhotoShop */
+
+width: 353px;
+height: 91px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 130%;
+/* identical to box height, or 91px */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+/* Skill 9 (Adobe XD) */
+.adobexd-icon {
+    position: absolute; left: 81.83%; right: 11.82%; top: 41.74%; bottom: 48.07%;
+    background: url(hex9.png); /* Mapped from placeholder */
+}
+.frame-1321314594-adobexd { /* Unique class based on HTML */
+   /* Frame 1321314594 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+left: 83%;
+right: 12.55%;
+top: 52.59%;
+bottom: 44.84%;
+
+background: #231F20;
+border-radius: 4px;
+
+}
+.text-adobe-xd {
+   /* Adobe XD */
+
+width: 329px;
+height: 91px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 130%;
+/* identical to box height, or 91px */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+/* Adobe XD complex icon paths */
+.adobexd-path-5 { position: absolute; left: 40.55%; right: 40.55%; top: 33.33%; bottom: 33.33%; background: #FF61F6; } /* Renamed from Path_5 */
+.adobexd-xd-text { position: absolute; left: 43.07%; right: 43.07%; top: 39.47%; bottom: 39.39%; background: #2E001E; border: 1.5px solid #000000; } /* Renamed from xd */
+
+
+/* Skill 10 (Wire Framing) */
+.wireframe-2-icon {
+    position: absolute; left: 82.75%; right: 13.14%; top: 63.51%; bottom: 28.74%;
+    background: url(hex10.png); transform: rotate(0deg);
+}
+.frame-1321314598 { /* HTML used this for Wire Framing */
+   /* Frame 1321314598 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+left: 82.58%;
+right: 12.97%;
+top: 73.04%;
+bottom: 24.38%;
+
+background: #231F20;
+border-radius: 4px;
+
+}
+.text-wire-framing {
+   /* Wire Framing */
+
+width: 441px;
+height: 91px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 130%;
+/* identical to box height, or 91px */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
 }
