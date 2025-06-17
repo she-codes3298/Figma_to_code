@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve Georgia - Graphic Designer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #2c1810 0%, #1a1a2e 50%, #16213e 100%);
+            position: relative;
+            padding: 0 2rem;
+        }
+        
+        /* Navigation */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem 0;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .logo {
+            color: #f4a261;
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
+        
+        .nav-links li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+            opacity: 0.8;
+        }
+        
+        .nav-links li a:hover {
+            color: #f4a261;
+            opacity: 1;
+        }
+        
+        /* Main Content */
+        .main-content {
+            display: flex;
+            align-items: center;
+            min-height: 80vh;
+            position: relative;
+        }
+        
+        .content-left {
+            flex: 1;
+            max-width: 600px;
+            z-index: 5;
+        }
+        
+        .subtitle {
+            color: #f4a261;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+        
+        .main-title {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .main-title .innovative {
+            color: #ffffff;
+        }
+        
+        .main-title .designs {
+            color: #f4a261;
+        }
+        
+        .main-title .by {
+            color: #ffffff;
+        }
+        
+        .main-title .steve {
+            color: #f4a261;
+        }
+        
+        .main-title .georgia {
+            color: #ffffff;
+        }
+        
+        .description {
+            color: #ffffff;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 3rem;
+            opacity: 0.9;
+            max-width: 500px;
+        }
+        
+        /* Stats Section */
+        .stats {
+            display: flex;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-circle {
+            width: 80px;
+            height: 80px;
+            border: 3px solid #f4a261;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            position: relative;
+            background: rgba(244, 162, 97, 0.1);
+        }
+        
+        .stat-number {
+            color: #ffffff;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        
+        .stat-label {
+            color: #ffffff;
+            font-size: 0.9rem;
+            opacity: 0.8;
+            max-width: 80px;
+            line-height: 1.3;
+        }
+        
+        /* Download Button */
+        .download-btn {
+            background: #f4a261;
+            color: #2c1810;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .download-btn:hover {
+            background: #e76f51;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(244, 162, 97, 0.3);
+        }
+        
+        .download-btn::before {
+            content: "📄";
+            font-size: 1.2rem;
+        }
+        
+        /* Right Side - Image and Decorations */
+        .content-right {
+            flex: 1;
+            position: relative;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* Orange Blob */
+        .orange-blob {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(135deg, #f4a261 0%, #e76f51 100%);
+            border-radius: 50% 40% 60% 30%;
+            right: 10%;
+            top: 20%;
+            z-index: 1;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        /* Dark Blobs */
+        .dark-blob-1 {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 50%;
+            right: 25%;
+            bottom: 25%;
+            z-index: 2;
+            animation: float 4s ease-in-out infinite reverse;
+        }
+        
+        .dark-blob-2 {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 50%;
+            right: 15%;
+            bottom: 35%;
+            z-index: 2;
+            animation: float 5s ease-in-out infinite;
+        }
+        
+        .dark-blob-3 {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: rgba(0, 0, 0, 0.15);
+            border-radius: 50%;
+            right: 35%;
+            bottom: 20%;
+            z-index: 2;
+            animation: float 3s ease-in-out infinite reverse;
+        }
+        
+        /* Character Image */
+        .character-image {
+            position: absolute;
+            right: 15%;
+            top: 25%;
+            z-index: 3;
+            width: 280px;
+            height: auto;
+            animation: bounce 3s ease-in-out infinite;
+        }
+        
+        /* Placeholder for character - replace with actual image */
+        .character-placeholder {
+            width: 280px;
+            height: 350px;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            border-radius: 20px;
+            position: relative;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        .character-placeholder::before {
+            content: "👩‍🎨";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 4rem;
+        }
+        
+        /* Footer */
+        .footer-text {
+            position: absolute;
+            bottom: 2rem;
+            left: 2rem;
+            color: #8b5a3c;
+            font-size: 0.9rem;
+            z-index: 10;
+        }
+        
+        /* Animations */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .main-content {
+                flex-direction: column;
+                text-align: center;
+                gap: 3rem;
+            }
+            
+            .content-right {
+                height: 50vh;
+            }
+            
+            .orange-blob {
+                width: 300px;
+                height: 300px;
+                right: 50%;
+                transform: translateX(50%);
+            }
+            
+            .character-placeholder {
+                width: 200px;
+                height: 250px;
+            }
+            
+            .stats {
+                justify-content: center;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .main-title {
+                font-size: 2.5rem;
+            }
+            
+            .stats {
+                gap: 2rem;
+            }
+            
+            .stat-circle {
+                width: 60px;
+                height: 60px;
+            }
+            
+            .stat-number {
+                font-size: 1.4rem;
+            }
+            
+            .orange-blob {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">STEVE GEORGIA</div>
+            <ul class="nav-links">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#experiences">EXPERIENCES</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+            </ul>
+        </nav>
+        
+        <div class="main-content">
+            <div class="content-left">
+                <div class="subtitle">Graphic Designer</div>
+                <h1 class="main-title">
+                    <span class="innovative">INNOVATIVE</span> <span class="designs">DESIGNS</span> <span class="by">BY</span><br>
+                    <span class="steve">STEVE</span> <span class="georgia">GEORGIA</span>
+                </h1>
+                <p class="description">
+                    Passionate graphic designer crafting transformative digital experiences with creativity and precision
+                </p>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-circle">
+                            <span class="stat-number">5+</span>
+                        </div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-circle">
+                            <span class="stat-number">50+</span>
+                        </div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-circle">
+                            <span class="stat-number">98%</span>
+                        </div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+                
+                <button class="download-btn">Download CV</button>
+            </div>
+            
+            <div class="content-right">
+                <div class="orange-blob"></div>
+                <div class="dark-blob-1"></div>
+                <div class="dark-blob-2"></div>
+                <div class="dark-blob-3"></div>
+                <div class="character-placeholder"></div>
+            </div>
+        </div>
+        
+        <div class="footer-text">🖥️ Desktop - 15</div>
+    </div>
+</body>
+</html>
