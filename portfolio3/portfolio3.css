@@ -610,9 +610,9 @@ border-radius:50%;
 .ell37{left: 697px;top: 1229px;}
 .ell39{left:697px;top:3165px;}
 .ell41{left:697px;top:5112px;}
-.ell43{left:11020px;top:1099.9px;}
-.ell45{left:11020px;top:3050px;}
-.ell47{left:11020px;top:5000.22px;}
+.ell43{left: 11100px;top: 1200.17px;}
+.ell45{left: 11100px;top: 3088.17px;}
+.ell47{left: 11100px;top: 4888.17px;}
 
 .ellipse-big{
     /* Ellipse 36 */
@@ -633,9 +633,74 @@ border: 30px solid #209BE8;
 .ell36{left: 596px;top: 1149px;}
 .ell38{left: 596px;top: 3085px;}
 .ell40{left: 596px;top: 5032px;}
-.ell42{left: 12194.77px;top: 2169.46px;}
-.ell44{left: 12194.77px;top: 4076.46px;}
-.ell46{left: 12194.77px;top: 5866.46px;}
+.ell42{left: 11000px;top: 1100.17px; right:1010px;}
+.ell44{left: 11000px;top: 3008.17px;right:1010px;}
+.ell46{left: 11000px;top: 4808.17px;right:1010px;}
+
+.line{
+    /* ------------ */
+
+/* ------------ */
+
+position: absolute;
+width: 1487px;
+height: 390px;
+
+
+font-family: 'Aldrich';
+font-style: normal;
+font-weight: 400;
+font-size: 300px;
+line-height: 130%;
+/* identical to box height, or 390px */
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+
+
+}
+.line2{left: 3755px;top: 1380px;}
+.line3{left: 3755px;top: 3357px;}
+.line4{left: 3755px;top: 5360px;}
+.line5{left: 7400px;top: 1417px;}
+.line6{left: 7400px;top: 3300px;}
+.line7{left: 7380px;top: 5010px;}
+
+.ellipse-side-small{
+    /* Ellipse 48 */
+
+position: absolute;
+width: 202px;
+height: 183px;
+
+border-radius:50%;
+z-index:4;
+background: #209BE8;
+
+}
+ .ell48{left: 5342px;top: 1483px;}
+ .ell61{left: 5342px;top: 3465px;}
+ .ell51{left: 5342px;top: 5427px;}
+ .ell57{left: 7606px;top: 1511px;}
+ .ell55{left: 7606px;top: 3527px;}
+ .ell53{left: 7606px;top: 5427px;}
+
+ .ellipse-side-big{
+    /* Ellipse 49 */
+
+position: absolute;
+width: 312px;
+height: 274px;
+left: 5287px;
+top: 1429px;
+
+background: #FFFFFF;
+
+ }
+
+
 
 
 
